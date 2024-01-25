@@ -81,5 +81,12 @@ Implantar e testar o modelo
   Enable authentication: Selected
 
 - Teste do serviço implantado
+    [input](https://github.com/juanfisicobr/AzureMachineL/input.json)
+Resposta do modelo
+{
+  "Results":[
+    0:float 399.8883147614036
+  ]
+}
 ```
     
