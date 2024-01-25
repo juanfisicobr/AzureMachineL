@@ -44,7 +44,7 @@ Selecionar de arquivos da Web
 Selecione Create (Criar). Depois que o conjunto de dados for criado, selecione o conjunto de dados bike-rentals para continuar a enviar o trabalho de ML automatizado.
 
 - Configurações da tarefa:
-
+```bash
     Tipo de tarefa: Regressão
     Conjunto de dados: bike-rentals
     Coluna de destino: Aluguel (número inteiro)
@@ -65,7 +65,7 @@ Selecione Create (Criar). Depois que o conjunto de dados for criado, selecione o
         Tipo de validação: Divisão de treinamento-validação
         Porcentagem de dados de validação: 10
         Conjunto de dados de teste: Nenhum
-
+```
 - Servidor
 
         Selecione o tipo de computação: Sem servidor
@@ -81,7 +81,7 @@ Implantar e testar o modelo
   Enable authentication: Selected
 
 - Teste do serviço implantado
-    [input](https://github.com/juanfisicobr/AzureMachineL/input.json)
+    [input](https://github.com/juanfisicobr/AzureMachineL/blob/main/input.json)
 Resposta do modelo
 ```bash
 {
