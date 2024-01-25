@@ -73,5 +73,13 @@ Selecione Create (Criar). Depois que o conjunto de dados for criado, selecione o
         Nível da máquina virtual: Dedicada
         Tamanho da máquina virtual: Standard_DS3_V2*
         Número de instâncias: 1
+
+Implantar e testar o modelo
+  Name: predict-rentals
+  Description: Predict cycle rentals
+  Compute type: Azure Container Instance
+  Enable authentication: Selected
+
+- Teste do serviço implantado
 ```
     
