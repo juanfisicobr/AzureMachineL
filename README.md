@@ -11,14 +11,14 @@ Selecione + Criar um recurso, e pesquise Azure Machine Learning  com as seguint
 
 
   - Configurações básicas:
-
+```bash
     Nome do trabalho: mslearn-bike-automl
     Nome do novo experimento: mslearn-bike-rental
     Descrição: Aprendizado automático de máquina para previsão de aluguel de bicicletas
     Tags: nenhum
-
+```
   - Tipo de tarefa e dados:
-
+```bash
     Selecione o tipo de tarefa: Regressão
     Selecione o conjunto de dados: Crie um novo conjunto de dados com as seguintes configurações:
         Tipo de dados:
@@ -40,7 +40,7 @@ Selecionar de arquivos da Web
         Esquema:
             Include all columns other than Path (Incluir todas as colunas que não sejam Path)
             Revise os tipos detectados automaticamente
-
+```
 Selecione Create (Criar). Depois que o conjunto de dados for criado, selecione o conjunto de dados bike-rentals para continuar a enviar o trabalho de ML automatizado.
 
 - Configurações da tarefa:
