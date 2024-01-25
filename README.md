@@ -9,7 +9,7 @@ Neste laboratório, utilizarei o recurso de aprendizado de máquina automatizado
 Acesse ao portal de [Azure](https://portal.azure.com) com suas credenciais. 
 Selecione + Criar um recurso, e pesquise Azure Machine Learning  com as seguintes configurações:
 
-```bash
+
   - Configurações básicas:
 
     Nome do trabalho: mslearn-bike-automl
@@ -83,6 +83,7 @@ Implantar e testar o modelo
 - Teste do serviço implantado
     [input](https://github.com/juanfisicobr/AzureMachineL/input.json)
 Resposta do modelo
+```bash
 {
   "Results":[
     0:float 399.8883147614036
